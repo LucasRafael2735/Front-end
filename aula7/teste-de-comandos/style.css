@@ -1,0 +1,17 @@
+.link-normal {
+    background: #00F;
+    color: #FFF;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #000;
+}
+
+.link-bloco {
+    display: inline;
+    background: rgb(71, 71, 133);
+    color: #FFF;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #000;
+}
+
