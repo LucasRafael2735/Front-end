@@ -1,0 +1,23 @@
+body{
+    background-image: url(https://ogimg.infoglobo.com.br/in/24581416-aae-bd5/FT1086A/THEROCK.jpg)
+}
+
+h1{
+    color: red;
+    border: solid 1px red;
+    font-weight: 100;
+}
+
+p{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: red;
+    color: white;
+}
+
+article{
+    background-color: lightskyblue;
+    margin: 50px;
+    border-style: dashed;
+    font-weight: bold;
+}
