@@ -11,10 +11,132 @@ body {
 
 .ferrari p::selection,
 .ferrari a::selection,
-.ferrari h1::selection
+.ferrari h1::selection,
+.ferrari img::selection
+
 {
     background-color: #7ececa;
 
 }
 
+.koenigsegg-body {
+    background-color: #a9eba7;
+}
+
+.Koenigsegg p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: #000000;
+}
+.head-koenigsegg {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: #000000; 
+    background-color: bisque;
+    width: 70%;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+.rodapé-koenigsegg {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: #000000; 
+    background-color: bisque;
+    width: 70%;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.Koenigsegg {
+    background-color: bisque;
+    width: 70%;
+    border-radius: 10px;
+    padding: 15px;
+
+}
+
+#title {
+    font-size: 30px;
+}
+
+.koenigsegg-body::selection,
+.Koenigsegg p::selection,
+.head-koenigsegg p::selection,
+.rodapé-koenigsegg p::selection,
+.Koenigsegg::selection,
+.Koenigsegg img::selection,
+.koenigsegg-body a::selection
+{
+        
+      background-color: burlywood;
+}
+
+
+.body-index img{
+        width: 50%;
+}
+
+
+
+.nissan-body {
+      background-color: #f0beb2;
+}
+
+.nissan p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: #000000;
+}
+
+.rodapé-nissan {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: #000000;
+    background-color: rgb(243, 156, 146);
+    width: 70%;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.nissan-body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: #000000;
+    
+}
+
+.nissan {
+    background-color: rgb(243, 156, 146);
+    width: 70%;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.nissan-body header {
+    width: 70%;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: rgb(243, 156, 146);
+    
+}
+#title-nissan {
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nissan-body::selection,
+.nissan p::selection,
+.rodapé-nissan p::selection,
+.nissan-body img::selection,
+.nissan::selection,
+.nissan-body header p::selection,
+#title-nisssan::selection,
+.rodapé-nissan a::selection
+ {
+    background-color: rgb(240, 200, 154);
+}
 
