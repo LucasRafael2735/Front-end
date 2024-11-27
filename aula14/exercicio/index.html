@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio</title>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div>
+        Name: <input type="text" placeholder="Name" required id="name">
+    </div>
+    <div>
+        Email: <input type="text" placeholder="Email" required id="email">
+    </div>
+    <div>
+        Senha: <input type="text" placeholder="Senha" required id="senha">
+    </div>
+    <div>
+        Dê uma nota de 0 a 10: <input type="number" placeholder="nota" min="0" max="10" required id="nota">
+    </div>
+
+
+    <input type="submit" value="Enviar" onclick="pegaInformações()">
+
+
+    <p id="verNome"></p>
+    <p id="verEmail"></p>
+    <p id="verSenha"></p>
+
+
+</body>
+
+</html>
